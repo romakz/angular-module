@@ -1,0 +1,14 @@
+<div class="main-box">
+  <h1>List of Groups</h1>
+
+  <div class="flex-box">
+
+    <div class="child-elem" *ngFor="let group of groups">
+      <p><span>Group ID:</span> {{group.id}}</p>
+      <p><span>Name:</span> {{group.name}}</p>
+      <p><span>User Ids: </span> {{group.userIds}}</p>
+      <p><span>Members number: </span> {{group.userIds.length}}</p>
+    </div>
+
+  </div>
+</div>

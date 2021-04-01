@@ -1,0 +1,13 @@
+<div class="main-box">
+  <h1>List of Users</h1>
+
+  <div class="flex-box">
+
+    <div class="child-elem" *ngFor="let user of users">
+      <p><span>User ID:</span> {{user.id}}</p>
+      <p><span>First Name:</span> {{user.firstName}}</p>
+      <p><span>Last Name:</span> {{user.lastName}}</p>
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,27 @@
+.main-box {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.flex-box {
+  width: auto;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.child-elem {
+  width: auto;
+  background: #2988de;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: #fff;
+  margin-bottom: 10px ;
+  span {
+    color: #000;
+    font-weight: bold;
+  }
+}

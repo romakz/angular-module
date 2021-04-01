@@ -1,0 +1,36 @@
+.main-box {
+  width: 100%;
+  height: 100%;
+
+  h1 {
+    text-align: center;
+  }
+}
+
+.flex-box {
+  padding-top: 150px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.child-elem{
+  padding: 100px;
+  background: #f85e00;
+  border-radius: 25px;
+  transition: all 300ms;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+
+  &:hover {
+    background: #a56344;
+    transform: scale(1.05);
+    font-weight: bold;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
